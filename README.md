@@ -1,2 +1,2 @@
-# devops-experience
-Palestra no DevOps Experience
+# DevOps - Hands on 
+Aplicação simples em python/flash com teste usando unitest
