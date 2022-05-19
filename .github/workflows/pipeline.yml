@@ -69,4 +69,4 @@ jobs:
         run: git push heroku HEAD:main --force
 
       - name: Install Requirements
-        run: pip install flask flask-wtf
+        run: pip install flask-wtf
