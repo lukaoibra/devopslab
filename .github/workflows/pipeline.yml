@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install Requirements
-        run:  pip install flask
+        run:  pip install flask flask-wtf
               
       - name: Unit Test
         run: python -m unittest -v test
@@ -67,6 +67,3 @@ jobs:
       # Enviando o código da App para o Heroku fazer Deploy
       - name: Push to Heroku & Deploy
         run: git push heroku HEAD:main --force
-
-      - name: Install Requirements
-        run: pip install flask flask-wtf
